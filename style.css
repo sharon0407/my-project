@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans serif;
+}
+
+body {
+    background-color: #fdf6f6;
+    color: #333333;
+    line-height: 1.6;
+    padding-bottom: 40px;
+}
+
+.restaurant-header{
+    background-color: #8b0000;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, o.15);
+}
+
+.restaurant-header h1{
+    font-size: 2.8rem;
+    color: #ffd700;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.tagline{
+    font-size:1.2rem;
+    font-style: italic;
+    opacity: 0,9;
+}
+
+.menu-container{
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.menu-section{
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 35px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0.05);
+    border-left: 6px solid #8b0000;
+}
+
+.section-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #f0e6df;
+    adding-bottom: 12px;
+    argin-bottom:20px;
+}
+
+.section-title h2{
+    font-size: 1.8rem;
+    color: #8b0000;
+}
+
+.section-img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    border:3px solid #ffd700;
+}
+
+.menu-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.menu-item{
+    background-color: #fffcf8;
+    border: 1px solid #f1e4d8;
+    paddind: 15px;
+    border-radius: 8px;
+}
+
+.item-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+.item-header h3{
+    font-size: 1.1rem;
+    color: #222222;
+}
+
+.price{
+    font-weight: bold;
+    color: #b22222;
+    background-color: #fff0f0;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: o,95rem;
+}
+
+.description{
+    font-size: 0.9rem;
+    color: #666666;
+}
+
+.restaurant-footer{
+   text-align: center;
+   background-color: #222222;
+   color: #ffffff;
+   padding: 30px 20px;
+   margin-top: 50px; 
+}
+
+.thank-you{
+    font-size: 1.2rem;
+    color: #ffd700;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.platforms h4{
+    margin-bottom: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 0,9rem;
+    letter-spacing: 1px;
+}
+
+.social-links a {
+    color: #dddddd;
+    text-decoration: none;
+    font-size: 0,9rem;
+    transition: color 0.2s ease;
+}
+
+.social-links a:hover {
+    color: #ffd700;
+}
+
